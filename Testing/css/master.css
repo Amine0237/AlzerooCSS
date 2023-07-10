@@ -1,0 +1,15 @@
+.parent {
+	background-color: red;
+	padding: 10px;
+}
+
+.product {
+	cursor: pointer;
+	width: 25%;
+	background-color: aliceblue;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}

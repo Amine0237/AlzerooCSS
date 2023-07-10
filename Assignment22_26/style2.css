@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Caprasimo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+p {
+	font-size: 50px;
+	text-align: center;
+}
+
+.one {
+	text-transform: capitalize;
+	font-family: "Open Sans";
+	font-weight: 300;
+}
+
+.two {
+	text-transform: capitalize;
+	font-family: Cairo;
+	font-weight: 700;
+}
+
+.three {
+	text-transform: capitalize;
+	font-family: Jomhuria;
+	font-weight: 400;
+}

@@ -1,0 +1,22 @@
+div {
+	margin: 30px;
+	padding: 10px;
+	font-size: 50px;
+	background-color: gray;
+	border-width: 0 0 0 10px;
+	border-style: solid;
+	outline: 10px gray solid;
+}
+
+.shape1 {
+	border-left-color: red;
+}
+
+.shape2 {
+	visibility: hidden;
+	border-left-color: orange;
+}
+
+.shape3{
+	border-left-color: green;
+}

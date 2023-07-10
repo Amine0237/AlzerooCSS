@@ -1,0 +1,17 @@
+@font-face {
+	font-family: myFont;
+	src: url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+}
+
+body {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	font-size: 50px;
+	width: 100px;
+	color: white;
+	border-bottom: rgb(5, 71, 35) solid 5px;
+	background-color: rgb(55, 184, 55);
+}

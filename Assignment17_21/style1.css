@@ -1,0 +1,9 @@
+div {
+	font-size: 50px;
+	text-align: center;
+	text-transform: capitalize;
+	text-shadow: 2px 2px red, 
+		4px 4px blue, 
+		6px 6px blueviolet;
+
+}
