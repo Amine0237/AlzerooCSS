@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+}
+
+div {
+	width: 400px;
+	height: 100px;
+	border-top: 2px solid red;
+	border-bottom: 2px solid red;
+	border-left: 2px solid aqua;
+	border-right: 2px solid aqua;
+	text-align: center;
+	margin-left: calc((100% - 404px)/2);
+	background-color: gray;
+	margin-top: 50px;
+
+}
+
+.top-left, .top-right, .bottom-left, .bottom-right {
+	position: absolute;
+	width: 40px;
+	height: 30px;
+	background-color: aqua;
+	font-size: 25px;
+}
+
+.top-left {
+	top: 34px;
+	left: calc(((100% - 400px)/2) - 21px);
+	border-right: 2px solid red;
+}
+
+.top-right{
+	top: 34px;
+	right: calc(((100% - 400px)/2) - 21px);
+	border-left: 2px solid red;
+}
+
+.bottom-left {
+	top: 138px;
+	left: calc(((100% - 400px)/2) - 21px);
+	border-right: 2px solid red;
+}
+
+.bottom-right {
+	top: 138px;
+	right: calc(((100% - 400px)/2) - 21px);
+	border-left: 2px solid red;
+}

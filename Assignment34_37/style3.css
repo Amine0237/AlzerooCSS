@@ -1,0 +1,24 @@
+.mainLi {
+	background-color: gray;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+.mainUl {
+	width: 400px;
+	padding-left: 0;
+	margin: 0;
+	list-style: none;
+
+
+}
+
+.normalUl li, .normalOl li, .romanOl li{
+	background-color: aliceblue;
+	margin-bottom: 10px;
+
+}
+
+.romanOl {
+	list-style-type: upper-roman
+}
