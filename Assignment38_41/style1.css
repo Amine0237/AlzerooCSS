@@ -1,0 +1,46 @@
+div {
+	position: relative;
+	background-color: bisque;
+	counter-increment: counter1;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	margin-top: 10px;
+
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+
+	box-shadow: -5px -5px red, 5px 5px blue;
+
+	margin-left: 10px;
+
+}
+
+div::after {
+	position: absolute;
+	display: block;
+	content: "Element";
+	width: 100px;
+	height: auto;
+	padding: 41px 0;
+	text-align: center;
+}
+
+div::before {
+	position: absolute;
+	content: counter(counter1);
+	display: block;
+	left: 40px;
+	top: -10px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+}

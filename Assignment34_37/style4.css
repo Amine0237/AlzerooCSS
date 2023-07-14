@@ -5,8 +5,9 @@ p {
     height: auto;
     padding: 10px 0;
     background-color: gray;
+    margin-left: 30px;
     margin-top: 10px;
-    border-right: 4px solid red;
+    border-right: 4px solid red; 
 }
 
 p::before {
@@ -15,6 +16,7 @@ p::before {
     color: white;
     text-align: center;
     top: 0;
+    left: -30px;
     width: 30px; 
     height: auto;
     padding: 10px 0;
