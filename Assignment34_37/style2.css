@@ -1,49 +1,28 @@
-body {
-	margin: 0;
-}
-
 div {
-	width: 400px;
-	height: 100px;
-	border-top: 2px solid red;
-	border-bottom: 2px solid red;
-	border-left: 2px solid aqua;
-	border-right: 2px solid aqua;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
-	margin-left: calc((100% - 404px)/2);
 	background-color: gray;
-	margin-top: 50px;
-
+	font-size: 20px;
+	width: 400px;
+	height: auto;
+	padding: 20px 0;
 }
 
-.top-left, .top-right, .bottom-left, .bottom-right {
+div::before {
+	content: "1";
+	font-size: 40px;
+	color: white;
 	position: absolute;
-	width: 40px;
-	height: 30px;
-	background-color: aqua;
-	font-size: 25px;
+	display: inline-block;
+	left: -15px;
+	bottom: 9px;
+	height: auto;
+	width: 30px;
+	background-color: red;
 }
 
-.top-left {
-	top: 34px;
-	left: calc(((100% - 400px)/2) - 21px);
-	border-right: 2px solid red;
-}
-
-.top-right{
-	top: 34px;
-	right: calc(((100% - 400px)/2) - 21px);
-	border-left: 2px solid red;
-}
-
-.bottom-left {
-	top: 138px;
-	left: calc(((100% - 400px)/2) - 21px);
-	border-right: 2px solid red;
-}
-
-.bottom-right {
-	top: 138px;
-	right: calc(((100% - 400px)/2) - 21px);
-	border-left: 2px solid red;
+div::first-letter {
+	color: gray;
 }
