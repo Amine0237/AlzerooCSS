@@ -1,0 +1,29 @@
+div::first-letter {
+	color: red;
+}
+
+div::before {
+	position: absolute;
+	content: "";
+	top: -10px;
+	left: -10px;
+	z-index: -1;
+	width: 620px;
+	height: 77.5px;
+	background-image: linear-gradient(to right, 
+		red 20%, 
+		blue 20%, blue 40%,
+		green 40%, green 60%,
+		rgb(202, 65, 157) 60%, rgb(202, 65, 157) 80%, 
+		rgb(61, 11, 122) 80%);
+}
+
+div {
+	position: relative;
+	width: 600px;
+	font-size: 50px;
+	text-align: center;
+	letter-spacing: 5px;
+	margin: 30px auto;
+	background-color: white;
+}
