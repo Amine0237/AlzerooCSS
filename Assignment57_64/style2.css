@@ -1,0 +1,52 @@
+.layout {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-template-rows: 30px 300px 30px;
+}
+
+header::before {
+	content: "Header";
+	color: white;
+}
+
+header {
+	background-color: blue;
+	grid-column: 1 / 3;
+	padding-left: 10px;
+	display: flex;
+	align-items: center;
+}
+
+section::before {
+	content: "Section";
+	color: white;
+}
+
+section {
+	background-color: red;
+	padding-left: 10px;
+}
+
+aside::before {
+	content: "Aside";
+	color: white;
+}
+
+aside {
+	background-color: gray;
+	padding-left: 10px;
+}
+
+footer::before {
+	content: "footer";
+	color: white;
+}
+
+footer {
+	background-color: green;
+	grid-column: 1 / 3;
+	padding-left: 10px;
+	display: flex;
+	align-items: center;
+}

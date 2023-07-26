@@ -1,0 +1,27 @@
+.grid {
+	background-color: #ddd;
+	padding: 20px;
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 40px 1fr;
+	grid-gap: 20px;
+}
+
+.grid div {
+	background-color: blue;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+}
+
+.grid div:nth-child(1)::after { content: "Element 1"; }
+.grid div:nth-child(2)::after { content: "Element 2"; }
+.grid div:nth-child(3)::after { content: "Element 3"; }
+.grid div:nth-child(4)::after { content: "Element 4"; }
+.grid div:nth-child(5)::after { content: "Element 5"; }
+.grid div:nth-child(6)::after { content: "Element 6"; }
