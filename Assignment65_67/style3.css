@@ -1,0 +1,79 @@
+div::before {
+	content: "";
+	position: absolute;
+	background-image: linear-gradient(to right, white 20%, pink 20%, pink 100%);
+	width: 220px;
+	height: 220px;
+	top: -10px;
+	left: -10px;
+	z-index: -1;
+	border-radius: 220px;
+	-webkit-border-radius: 220px;
+	-moz-border-radius: 220px;
+	-ms-border-radius: 220px;
+	-o-border-radius: 220px;
+
+	
+}
+
+div::after {
+	content: "";
+	position: absolute;
+	background-image: linear-gradient(to right, blue 80%, white 80%, white 100%);
+	width: 240px;
+	height: 240px;
+	top: -20px;
+	left: -20px;
+	z-index: -2;
+	border-radius: 240px;
+	-webkit-border-radius: 240px;
+	-moz-border-radius: 240px;
+	-ms-border-radius: 240px;
+	-o-border-radius: 240px;
+	
+}
+
+div {
+	position: relative;
+	width: 200px;
+	height: auto;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+	margin: 50px auto;
+	background-color: gray;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding: calc(100px - 34.286px / 2) 0;
+	
+}
+
+div:hover::before {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transition: transform 1s linear 0s;
+	-webkit-transition: transform 1s linear 0s;
+	-moz-transition: transform 1s linear 0s;
+	-ms-transition: transform 1s linear 0s;
+	-o-transition: transform 1s linear 0s;
+}
+
+div:hover::after {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+
+	transition: transform 2s linear 1s;
+	-webkit-transition: transform 2s linear 1s;
+	-moz-transition: transform 2s linear 1s;
+	-ms-transition: transform 2s linear 1s;
+	-o-transition: transform 2s linear 1s;
+}
