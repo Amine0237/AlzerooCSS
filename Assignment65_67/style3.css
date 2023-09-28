@@ -12,8 +12,6 @@ div::before {
 	-moz-border-radius: 220px;
 	-ms-border-radius: 220px;
 	-o-border-radius: 220px;
-
-	
 }
 
 div::after {
